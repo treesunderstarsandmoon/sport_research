@@ -16,7 +16,7 @@ This Sporting Risk workshop exercise begins by comparing two probability forecas
 
 The two goal distributions could be used to price markets such as match result and total goals. The evaluation measures forecast quality on historical matches. A follow-up would test a Dixon–Coles adjustment for dependence in low-scoring outcomes.
 
-[Football notebook](football/football_goal_forecasting.ipynb)
+[Football notebook](Football%20Matches%20Research/sportingriskcode.ipynb)
 
 ## NBA | Pre-game score forecasting
 
@@ -44,7 +44,7 @@ python -m pip install jupyter numpy pandas scikit-learn scipy openpyxl
 
 | Notebook folder | Required workbook |
 | --- | --- |
-| `football/` | `football_modelling.xlsx` |
+| `Football Matches Research/` | `football_modelling.xlsx` |
 | `nba/` | `nba_dataset.xlsx` |
 
 The source workbooks are absent from this repository. To build the NBA report, run `pdflatex methodology.tex` from `nba/` with a LaTeX distribution installed.
